@@ -1,6 +1,7 @@
 <?php
 namespace TwilioWithThinq;
 //require_once __DIR__ . '/../../vendor/autoload.php'; // Loads the library
+use Services_Twilio;
 
 class TwilioWrapper {
     private $client;
