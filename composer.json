@@ -1,0 +1,27 @@
+{
+    "name": "harouf/twilio-thinq-php",
+    "description": "Twilio Wrapper Library For thinQ LCR integration.",
+    "homepage": "https://github.com/harouf/twilio-thinq-php",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/harouf/twilio-thinq-php"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Fujio Harou",
+            "email": "harouf@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1",
+        "twilio/sdk": "^4.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "TwilioWithThinq": "src/"
+        }
+    }
+}
