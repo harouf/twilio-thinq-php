@@ -21,8 +21,8 @@
         "twilio/sdk": "^4.3"
     },
     "autoload": {
-        "psr-4": {
-            "TwilioWithThinq\\": "src/"
+        "psr-0": {
+            "TwilioWithThinq": "src/"
         }
     }
 }
