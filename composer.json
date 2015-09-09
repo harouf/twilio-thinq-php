@@ -15,6 +15,7 @@
             "email": "harouf@outlook.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.2.1",
         "twilio/sdk": "^4.3"
